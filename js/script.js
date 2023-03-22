@@ -43,7 +43,8 @@
      renderPokemon(input.value.toLowerCase());
      })
  buttonPrev.addEventListener('click', () =>{
-     alert('prev clicked')
+     searchPokemon -= 1;
+     renderPokemon(searchPokemon);
  })
  buttonNext.addEventListener('click', () =>{
      searchPokemon += 1;
